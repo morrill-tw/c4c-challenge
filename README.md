@@ -20,6 +20,8 @@ This application allows for the management of partner information for Code4Commu
 
 - Functionally, I also stayed mostly loyal to the provided example. I noticed that there was an 'Add Partner Info' button at the top of the example. This inspired me to make the form both expandable and collapsible. This helps to declutter the page and ensures that the form is not distracting when not in use. Additionally, I added an error message that appears when the user attempts to submit an incomplete form. When any of the three input boxes are left empty, this message appears on screen, blocking the incomplete partner tile from being created. I chose to add this feature to promote an overall cleaner look for the page, and to remind the user to fill out any fields that they may have overlooked or forgotten.
 
+*Note: I chose to render a partner tile at startup with the information given in the starter code to demonstrate what a complete tile might look like. This is for demo purposes only, otherwise I would have removed this tile from the partners list in the backend.*
+
 ## Reflection
 
 To preface, I had very minimal knowledge coming into this project. I had only scratched the surface of javascript, HTML, and CSS, and had never dabbled in React or Express previously.
