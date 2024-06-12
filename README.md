@@ -4,7 +4,7 @@ To run the app, a few things need to be installed, and then some additional step
 
 - Install Node.js/NPM at https://nodejs.org/en/download/package-manager and Git at https://git-scm.com/downloads.
 
-- Once both are installed, clone this repo onto your computer by executing the following command in a terminal: 'git clone https://github.com/MY-NAME-CHANGE-THIS/c4c-challenge-fall-2024.git'. Once cloned, run the command 'npm install' at the root of this project. At this point, the app is now ready to open. To open the application, run the command 'npm run dev' at the root of this project, and visit https://localhost:3000 to view the site.
+- Once both are installed, clone this repo onto your computer by executing the following command in a terminal: 'git clone https://github.com/morrill-tw/c4c-challenge.git'. Once cloned, run the command 'npm install' at the root of this project. At this point, the app is now ready to open. To open the application, run the command 'npm run dev' at the root of this project, and visit https://localhost:3000 to view the site.
 
 ## Overview
 
