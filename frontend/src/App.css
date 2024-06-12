@@ -1,0 +1,131 @@
+/* 
+  ================
+  COMPONENT STYLES
+  ================
+*/
+
+/* MainDisplay */
+
+#main-content {
+  position: relative;
+  width: 1000px;
+  padding: 30px 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+#top-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#form-section {
+  width: 400px;
+  padding: 25px;
+  border: 1px solid #3d3d3d;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+}
+
+#form-section input[type="text"],
+#form-section textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+#form-section textarea {
+  resize: none; 
+  height: 150px; 
+  margin-bottom: 10px;
+}
+
+#form-section label {
+  display: flex;
+  align-items: center;
+}
+
+#form-section input[type="checkbox"] {
+  margin-left: 10px;
+}
+
+#form-button {
+  margin-bottom: 20px; 
+}
+
+#main-partners-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+#submit-button, #delete-button, #form-button {
+  background-color: #36bd36;
+  color: white;
+  border: 2px solid lightslategray;
+  border-radius: 3px;
+  padding: 7px;
+}
+
+#submit-button:hover, #delete-button:hover, #form-button:hover {
+  background-color: #258125;
+  color: white;
+}
+
+#delete-button {
+  background-color: #e8564b;
+}
+
+#delete-button:hover {
+  background-color: #9d3b34;
+}
+
+#active {
+  color: #36bd36; 
+}
+
+h1.title {
+  text-align: center;
+  font-size: 24pt;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/* PartnerTile */
+
+.partner-tile {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border: 1px solid #3d3d3d;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.partner-thumbnail {
+  max-width: 330px;
+  max-height: 150px;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.partner-info {
+  font-size: 0.9em;
+  width: 100%;
+  word-wrap: break-word;
+}
